@@ -7,15 +7,20 @@
 
 import SwiftUI
 
+//DataControllerを作っていきます。
+
+struct Student: Hashable {
+    let name: String
+}
+
 struct ContentView: View {
+    
+    let Students = [Student(name: "Harry Potter"), Student(name: "Hermione Granger")]
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        List(Students, id: \.self) { student in
+            Text(student.name)
         }
-        .padding()
     }
 }
 
