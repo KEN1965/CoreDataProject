@@ -13,8 +13,6 @@
 		68C3386D297E439A00C2B98A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68C3386C297E439A00C2B98A /* Preview Assets.xcassets */; };
 		68C33874297E443800C2B98A /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C33873297E443800C2B98A /* DataController.swift */; };
 		68C33877297E44A600C2B98A /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68C33875297E44A600C2B98A /* CoreDataProject.xcdatamodeld */; };
-		68C3387A297E48D600C2B98A /* Movie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C33878297E48D600C2B98A /* Movie+CoreDataClass.swift */; };
-		68C3387B297E48D600C2B98A /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C33879297E48D600C2B98A /* Movie+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,8 +23,6 @@
 		68C3386C297E439A00C2B98A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		68C33873297E443800C2B98A /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		68C33876297E44A600C2B98A /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
-		68C33878297E48D600C2B98A /* Movie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataClass.swift"; sourceTree = "<group>"; };
-		68C33879297E48D600C2B98A /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,8 +39,6 @@
 		68C33859297E439700C2B98A = {
 			isa = PBXGroup;
 			children = (
-				68C33878297E48D600C2B98A /* Movie+CoreDataClass.swift */,
-				68C33879297E48D600C2B98A /* Movie+CoreDataProperties.swift */,
 				68C33864297E439700C2B98A /* CoreDataProject */,
 				68C33863297E439700C2B98A /* Products */,
 			);
@@ -152,8 +146,6 @@
 				68C33868297E439700C2B98A /* ContentView.swift in Sources */,
 				68C33874297E443800C2B98A /* DataController.swift in Sources */,
 				68C33877297E44A600C2B98A /* CoreDataProject.xcdatamodeld in Sources */,
-				68C3387A297E48D600C2B98A /* Movie+CoreDataClass.swift in Sources */,
-				68C3387B297E48D600C2B98A /* Movie+CoreDataProperties.swift in Sources */,
 				68C33866297E439700C2B98A /* CoreDataProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
